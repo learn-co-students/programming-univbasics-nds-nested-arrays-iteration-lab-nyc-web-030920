@@ -33,7 +33,7 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   i = 0
-  for i in 0 .. src.length() do 
+  for i in 0 .. src.length() - 1 do 
     if (src[i][0] == 0 && src[i][1] == 0)
        i += src[i][0] + src[i][1]
     end
